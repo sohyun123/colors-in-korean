@@ -1,0 +1,92 @@
+[{
+    "id": 1,
+    "koName": "간장색",
+    "enName": "Soy sauce",
+    "hex": "#3E3133",
+    "color": "red"
+},
+{
+    "id": 2,
+    "koName": "건포도색",
+    "enName": "Raisin",
+    "hex": "#57232C",
+    "color": "red"
+},
+{
+    "id": 3,
+    "koName": "암홍",
+    "enName": "Wine red",
+    "hex": "#61182A",
+    "color": "red"
+},
+{
+    "id": 4,
+    "koName": "적토색",
+    "enName": "Terra rossa",
+    "hex": "#683F36",
+    "color": "red"
+},
+{
+    "id": 5,
+    "koName": "팥색",
+    "enName": "Malsala",
+    "hex": "#733738",
+    "color": "red"
+},
+{
+    "id": 6,
+    "koName": "벽돌색",
+    "enName": "Brick red",
+    "hex": "#72392D",
+    "color": "red"
+},
+{
+    "id": 7,
+    "koName": "고추장색",
+    "enName": "Red pepper paste",
+    "hex": "#7E302B",
+    "color": "red"
+},
+{
+    "id": 8,
+    "koName": "백향과색",
+    "enName": "Crimson",
+    "hex": "#89203A",
+    "color": "red"
+},
+{
+    "id": 9,
+    "koName": "대추색",
+    "enName": "Jujube",
+    "hex": "#862917",
+    "color": "red"
+},
+{
+    "id": 10,
+    "koName": "루비색",
+    "enName": "Ruby",
+    "hex": "#8F002C",
+    "color": "red"
+},
+{
+    "id": 11,
+    "koName": "산딸기색",
+    "enName": "Raspberry",
+    "hex": "#92101C",
+    "color": "red"
+},
+{
+    "id": 12,
+    "koName": "자두색",
+    "enName": "Plum",
+    "hex": "#8C0016",
+    "color": "red"
+},
+{
+    "id": 13,
+    "koName": "솔방울색",
+    "enName": "Burnt sienna",
+    "hex": "#81564B",
+    "color": "red"
+}
+]
