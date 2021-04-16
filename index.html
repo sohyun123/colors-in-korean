@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="./js/index.js" type="text/javascript"></script>
+    <script src="./json/colorname352.json" type=" text/js "></script>
+
+    <title>Color Names in Korean</title>
+
+</head>
+
+<body>
+    <div class="container ">
+        <!-- <div class="choose">
+            <div class='one' onclick="palette()">
+                Color Palette
+            </div>
+            <div class='two' onclick="colors()">
+                Color List
+            </div>
+        </div> -->
+        <div class='menu'>
+            <div class="choose one" onclick="palette()">
+                Color Palette
+            </div>
+            <div class="choose two" onclick="colors()">
+                Color List
+            </div>
+        </div>
+
+        <div class="card" id='card1'>
+            <div class="projectName ">
+                Color Palette
+            </div>
+            <div class="palette " id='palette'>
+
+            </div>
+            <table>
+                <tr class="name korName ">
+                    <th>한글</th>
+                    <td id='koName'>간장색</td>
+                    <td class='audio' id='koTxt' onclick="speech(this.id)"><img src='img/audio.png'></td>
+
+                </tr>
+                <tr class="name engName ">
+                    <th>영어</th>
+                    <td id='enName'>Soy Sauce</td>
+                    <td class='audio' id='enTxt' onclick="speech(this.id)"><img src='img/audio.png'></td>
+                </tr>
+                <tr class="desc hexCode ">
+                    <th>HEX code</th>
+                    <td id='hex'>#3E3133</td>
+                </tr>
+                <tr class="desc category ">
+                    <th>분류</th>
+                    <td id='category'>red</td>
+                </tr>
+
+            </table>
+            <div class="btn " id='button' onclick="getData()">
+                <!-- <button>Go Random!</button> -->
+                Go Random!
+            </div>
+        </div>
+
+        <div class="card" id='card2' style="display: none; ">
+            <div class="projectName ">
+                Color List
+            </div>
+
+            <div class="choosing ">
+                <label for="categories ">분류 </label>
+
+                <select id="categories" onchange="select()">
+                <optgroup >
+                    <option value="" selected disabled hidden>Choose here</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="purple">Purple</option>
+                </optgroup>          
+            </select>
+                <div id="colortable">
+                    <table id="colorlist">
+                        <!-- <tr>
+                        <td>
+                            <div class="colorbox " />
+                        </td>
+                        <td class='koList' id='koTxt2' onclick="speech(this.id) ">
+                            안녕 친구들
+                        </td>
+                        <td class='enList' id='enTxt2' onclick="speech(this.id) ">
+                            Soy Sauce
+                        </td>
+                        <td>
+                            #3E3133
+                        </td>
+                    </tr> -->
+
+                    </table>
+                </div>
+            </div>
+            <!-- <div class="btn " onclick="getList()">
+                Go!
+            </div> -->
+
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
