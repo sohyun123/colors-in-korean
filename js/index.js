@@ -56,9 +56,10 @@ function getData() {
     var koName = document.getElementById('koName');
     var enName = document.getElementById('enName');
     var hex = document.getElementById('hex');
+    var color = document.getElementById('color');
     var category = document.getElementById('category');
 
-    // console.log(koName, enName, hex, category);
+    // console.log(koName, enName, hex, color);
 
     var xhr = new XMLHttpRequest();
     xhr.open('GET', requestURL);
@@ -73,13 +74,15 @@ function getData() {
         // console.log(xhr.response);
         var rgb = "";
         var data = xhr.response;
-        // console.log(data.length);
+        console.log(data.length);
         var index = Math.floor(Math.random() * data.length);
         palette.style.setProperty('background-color', data[index].hex);
         koName.innerHTML = data[index].koName;
         enName.innerHTML = data[index].enName;
         hex.innerHTML = data[index].hex;
-        category.innerHTML = data[index].color;
+        color.innerHTML = data[index].color;
+        category.innerHTML = data[index].category;
+
         // rgb = hexToRgb(data[index].hex);
         document.body.style.backgroundColor = complementaryColor(data[index].hex);
         // console.log(data[index].koName);
@@ -142,7 +145,7 @@ function speech(id) {
 
 }
 
-function getList(category) {
+function getList(color) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', requestURL);
     xhr.responseType = 'json';
@@ -152,14 +155,14 @@ function getList(category) {
 
         $.each(data, function(i, f) {
             // console.log(f.hex);
-            console.log(category);
-            if (f.color == String(category)) {
+            console.log(color);
+            if (f.color == String(color)) {
                 // var tblRow = "<tr>" + "<td><div class=" + "colorbox " + " id= " + f.hex + " /></td>" +
                 //     "<td class='koTxt2' onclick='speech(this.class," + f.koName + ")'>" + f.koName + "</td>" +
                 //     "<td class='enTxt2' onclick='speech(this.class," + f.enName + ")'>" + f.enName + "</td>" + "<td>" + f.hex + "</td>" + "</tr>"
                 var tblRow = "<tr>" + "<td><div class=" + "colorbox " + " id= " + f.hex + " /></td>" +
-                    "<td>" + f.koName + "</td>" +
-                    "<td>" + f.enName + "</td>" + "<td>" + f.hex + "</td>" + "</tr>"
+                    "<td class='koList'>" + f.koName + "</td>" +
+                    "<td class='enList'>" + f.enName + "</td>" + "<td>" + f.hex + "</td>" + "</tr>"
                 $(tblRow).appendTo("#colorlist");
             }
         });
@@ -183,8 +186,8 @@ function select() {
         $('#colorlist').remove();
     }
     var list = document.getElementById('categories');
-    var category = list[list.selectedIndex].value;
-    // console.log(category);
+    var color = list[list.selectedIndex].value;
+    // console.log(color);
 
 
 
@@ -196,15 +199,17 @@ function select() {
         var newList = "<table id=" + name + "> </table>";
         $(newList).appendTo("#colortable");
     }
-    if (String(category) == 'red') {
+    if (String(color) == 'red') {
         document.body.style.backgroundColor = 'rgb(247, 181, 181)';
-    } else if (String(category) == 'blue') {
+    } else if (String(color) == 'orange') {
+        document.body.style.backgroundColor = 'rgb(253, 220, 159)';
+    } else if (String(color) == 'blue') {
         document.body.style.backgroundColor = 'rgb(161, 184, 245)';
-    } else if (String(category) == 'yellow') {
+    } else if (String(color) == 'yellow') {
         document.body.style.backgroundColor = 'rgb(244, 245, 161)';
-    } else if (String(category) == 'purple') {
+    } else if (String(color) == 'purple') {
         document.body.style.backgroundColor = 'rgb(204, 161, 245)';
     }
-    getList(category)
+    getList(color)
 
 }

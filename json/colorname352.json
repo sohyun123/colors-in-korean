@@ -1,92 +1,937 @@
 [{
-    "id": 1,
-    "koName": "간장색",
-    "enName": "Soy sauce",
-    "hex": "#3E3133",
-    "color": "red"
-},
-{
-    "id": 2,
-    "koName": "건포도색",
-    "enName": "Raisin",
-    "hex": "#57232C",
-    "color": "red"
-},
-{
-    "id": 3,
-    "koName": "암홍",
-    "enName": "Wine red",
-    "hex": "#61182A",
-    "color": "red"
-},
-{
-    "id": 4,
-    "koName": "적토색",
-    "enName": "Terra rossa",
-    "hex": "#683F36",
-    "color": "red"
-},
-{
-    "id": 5,
-    "koName": "팥색",
-    "enName": "Malsala",
-    "hex": "#733738",
-    "color": "red"
-},
-{
-    "id": 6,
-    "koName": "벽돌색",
-    "enName": "Brick red",
-    "hex": "#72392D",
-    "color": "red"
-},
-{
-    "id": 7,
-    "koName": "고추장색",
-    "enName": "Red pepper paste",
-    "hex": "#7E302B",
-    "color": "red"
-},
-{
-    "id": 8,
-    "koName": "백향과색",
-    "enName": "Crimson",
-    "hex": "#89203A",
-    "color": "red"
-},
-{
-    "id": 9,
-    "koName": "대추색",
-    "enName": "Jujube",
-    "hex": "#862917",
-    "color": "red"
-},
-{
-    "id": 10,
-    "koName": "루비색",
-    "enName": "Ruby",
-    "hex": "#8F002C",
-    "color": "red"
-},
-{
-    "id": 11,
-    "koName": "산딸기색",
-    "enName": "Raspberry",
-    "hex": "#92101C",
-    "color": "red"
-},
-{
-    "id": 12,
-    "koName": "자두색",
-    "enName": "Plum",
-    "hex": "#8C0016",
-    "color": "red"
-},
-{
-    "id": 13,
-    "koName": "솔방울색",
-    "enName": "Burnt sienna",
-    "hex": "#81564B",
-    "color": "red"
-}
+        "id": 1,
+        "koName": "간장색",
+        "enName": "Soy sauce",
+        "hex": "#3E3133",
+        "color": "red",
+        "category": "음식"
+    },
+    {
+        "id": 2,
+        "koName": "건포도색",
+        "enName": "Raisin",
+        "hex": "#57232C",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 3,
+        "koName": "암홍",
+        "enName": "Wine red",
+        "hex": "#61182A",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 4,
+        "koName": "적토색",
+        "enName": "Terra rossa",
+        "hex": "#683F36",
+        "color": "red",
+        "category": "자연"
+    },
+    {
+        "id": 5,
+        "koName": "팥색",
+        "enName": "Malsala",
+        "hex": "#733738",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 6,
+        "koName": "벽돌색",
+        "enName": "Brick red",
+        "hex": "#72392D",
+        "color": "red",
+        "category": "인공물"
+    },
+    {
+        "id": 7,
+        "koName": "고추장색",
+        "enName": "Red pepper paste",
+        "hex": "#7E302B",
+        "color": "red",
+        "category": "음식"
+    },
+    {
+        "id": 8,
+        "koName": "백향과색",
+        "enName": "Crimson",
+        "hex": "#89203A",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 9,
+        "koName": "대추색",
+        "enName": "Jujube",
+        "hex": "#862917",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 10,
+        "koName": "루비색",
+        "enName": "Ruby",
+        "hex": "#8F002C",
+        "color": "red",
+        "category": "자연"
+    },
+    {
+        "id": 11,
+        "koName": "산딸기색",
+        "enName": "Raspberry",
+        "hex": "#92101C",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 12,
+        "koName": "자두색",
+        "enName": "Plum",
+        "hex": "#8C0016",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 13,
+        "koName": "솔방울색",
+        "enName": "Burnt sienna",
+        "hex": "#81564B",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 14,
+        "koName": "암주색",
+        "enName": "Sienna",
+        "hex": "#8D5141",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 15,
+        "koName": "꼭두서니색",
+        "enName": "Madder red",
+        "hex": "#A44042",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 16,
+        "koName": "사과색",
+        "enName": "Apple",
+        "hex": "#A33C3E",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 17,
+        "koName": "동백꽃색",
+        "enName": "Camellia",
+        "hex": "#AE344B",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 18,
+        "koName": "토마토색",
+        "enName": "Tomato",
+        "hex": "#AE382F",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 19,
+        "koName": "고무대야색",
+        "enName": "Safflower",
+        "hex": "#AB3D18",
+        "color": "red",
+        "category": "인공물"
+    },
+    {
+        "id": 20,
+        "koName": "딸기색",
+        "enName": "Strawberry",
+        "hex": "#BA2636",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 21,
+        "koName": "인주색",
+        "enName": "Signal red",
+        "hex": "#B51C2D",
+        "color": "red",
+        "category": "인공물"
+    },
+    {
+        "id": 22,
+        "koName": "빨강",
+        "enName": "Red",
+        "hex": "#B82B25",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 23,
+        "koName": "회갈색",
+        "enName": "Grayish red",
+        "hex": "#826E6B",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 24,
+        "koName": "참새색",
+        "enName": "Cacao brown",
+        "hex": "#96675A",
+        "color": "red",
+        "category": "동물"
+    },
+    {
+        "id": 25,
+        "koName": "심비색",
+        "enName": "Holly berry",
+        "hex": "#A6534B",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 26,
+        "koName": "홍차색",
+        "enName": "Tea",
+        "hex": "#B5461F",
+        "color": "red",
+        "category": "음식"
+    },
+    {
+        "id": 27,
+        "koName": "장미색",
+        "enName": "Rose",
+        "hex": "#BD3D49",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 28,
+        "koName": "석류색",
+        "enName": "Pomegranate",
+        "hex": "#D3253C",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 29,
+        "koName": "회자색",
+        "enName": "Rose gray",
+        "hex": "#7F7878",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 30,
+        "koName": "시루떡색",
+        "enName": "Rose dust",
+        "hex": "#9A6F68",
+        "color": "red",
+        "category": "음식"
+    },
+    {
+        "id": 31,
+        "koName": "회적색",
+        "enName": "Old rose",
+        "hex": "#A7696C",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 32,
+        "koName": "고구마색",
+        "enName": "Sweet potato",
+        "hex": "#B5625E",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 33,
+        "koName": "결명자차색",
+        "enName": "Cassia tora tea",
+        "hex": "#C05E3B",
+        "color": "red",
+        "category": "음식"
+    },
+    {
+        "id": 34,
+        "koName": "연지색",
+        "enName": "Carmine",
+        "hex": "#CF5051",
+        "color": "red",
+        "category": "인공물"
+    },
+    {
+        "id": 35,
+        "koName": "다홍",
+        "enName": "Cherry red",
+        "hex": "#D84938",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 36,
+        "koName": "홍",
+        "enName": "Light red",
+        "hex": "#E7373C",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 37,
+        "koName": "선홍",
+        "enName": "Scarlet",
+        "hex": "#E33D2D",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 38,
+        "koName": "주색",
+        "enName": "Vermilion",
+        "hex": "#DA4900",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 39,
+        "koName": "홍시색",
+        "enName": "Jasper red",
+        "hex": "#DB5824",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 40,
+        "koName": "주홍",
+        "enName": "Reddish orange",
+        "hex": "#E9520B",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 41,
+        "koName": "계수나무색",
+        "enName": "Cinnamon tree",
+        "hex": "#B5897B",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 42,
+        "koName": "수수색",
+        "enName": "Indian millet",
+        "hex": "#C38378",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 43,
+        "koName": "소홍",
+        "enName": "Deep pink",
+        "hex": "#DF7663",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 44,
+        "koName": "황단색",
+        "enName": "Orange vermilion",
+        "hex": "#DD7854",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 45,
+        "koName": "카네이션색",
+        "enName": "Carnation",
+        "hex": "#EA6C76",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 46,
+        "koName": "참나리꽃색",
+        "enName": "Tigerlily",
+        "hex": "#E87244",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 47,
+        "koName": "무화과색",
+        "enName": "Fig",
+        "hex": "#E18775",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 48,
+        "koName": "명란색",
+        "enName": "Pollack roe",
+        "hex": "#E58865",
+        "color": "red",
+        "category": "음식"
+    },
+    {
+        "id": 49,
+        "koName": "회분홍",
+        "enName": "Indian pink",
+        "hex": "#CDA4A3",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 50,
+        "koName": "연홍",
+        "enName": "Lotus pink",
+        "hex": "#F19A96",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 51,
+        "koName": "산호색",
+        "enName": "Coral",
+        "hex": "#EF9785",
+        "color": "red",
+        "category": "동물"
+    },
+    {
+        "id": 52,
+        "koName": "홍학색",
+        "enName": "Salmon pink",
+        "hex": "#F19A86",
+        "color": "red",
+        "category": "동물"
+    },
+    {
+        "id": 53,
+        "koName": "돼지색",
+        "enName": "Baby pink",
+        "hex": "#EBBEB9",
+        "color": "red",
+        "category": "동물"
+    },
+    {
+        "id": 54,
+        "koName": "따오기색",
+        "enName": "Ibis pink",
+        "hex": "#F5BCBA",
+        "color": "red",
+        "category": "동물"
+    },
+    {
+        "id": 55,
+        "koName": "복숭아색",
+        "enName": "Peach",
+        "hex": "#FEB8A9",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 56,
+        "koName": "수홍",
+        "enName": "Light grayish pink",
+        "hex": "#EACDCC",
+        "color": "red",
+        "category": "색"
+    },
+    {
+        "id": 57,
+        "koName": "벚꽃색",
+        "enName": "Cherry blossom",
+        "hex": "#F1E0E0",
+        "color": "red",
+        "category": "식물"
+    },
+    {
+        "id": 58,
+        "koName": "적갈색",
+        "enName": "Reddish brown",
+        "hex": "#5A1515",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 59,
+        "koName": "초콜릿색",
+        "enName": "Chocolate",
+        "hex": "#413129",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 60,
+        "koName": "돌김색",
+        "enName": "Laver",
+        "hex": "#403127",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 61,
+        "koName": "콩자반색",
+        "enName": "Sepia",
+        "hex": "#3E3226",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 62,
+        "koName": "고동색",
+        "enName": "Old copper",
+        "hex": "#4D2B22",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 63,
+        "koName": "암갈색",
+        "enName": "Dark brown",
+        "hex": "#4D352F",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 64,
+        "koName": "고사리색",
+        "enName": "Dried bracken",
+        "hex": "#59453B",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 65,
+        "koName": "흑갈색",
+        "enName": "Blackish brown",
+        "hex": "#604C3F",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 66,
+        "koName": "코코아색",
+        "enName": "Cocoa",
+        "hex": "#664032",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 67,
+        "koName": "커피색",
+        "enName": "Coffee",
+        "hex": "#60432A",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 68,
+        "koName": "밤색",
+        "enName": "Chestnut brown",
+        "hex": "#6C3E1E",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 69,
+        "koName": "갈색",
+        "enName": "Brown",
+        "hex": "#804F21",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 70,
+        "koName": "조청색",
+        "enName": "Grain syrup",
+        "hex": "#944324",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 71,
+        "koName": "고엽색",
+        "enName": "Dried leaf",
+        "hex": "#705D4F",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 72,
+        "koName": "계피색",
+        "enName": "Cinnamon",
+        "hex": "#805746",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 73,
+        "koName": "점토색",
+        "enName": "Clay",
+        "hex": "#775C39",
+        "color": "orange",
+        "category": "자연"
+    },
+    {
+        "id": 74,
+        "koName": "떡갈나무색",
+        "enName": "Oak tree",
+        "hex": "#8A5339",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 75,
+        "koName": "등갈색",
+        "enName": "Tan",
+        "hex": "#83582C",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 76,
+        "koName": "구리색",
+        "enName": "Copper",
+        "hex": "#944E2A",
+        "color": "orange",
+        "category": "자연"
+    },
+    {
+        "id": 77,
+        "koName": "토관색",
+        "enName": "Terracotta",
+        "hex": "#8F5220",
+        "color": "orange",
+        "category": "인공물"
+    },
+    {
+        "id": 78,
+        "koName": "도토리묵색",
+        "enName": "Acorn jelly",
+        "hex": "#7F6645",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 79,
+        "koName": "담배색",
+        "enName": "Tobacco brown",
+        "hex": "#895515",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 80,
+        "koName": "곶감색",
+        "enName": "Dried persimmon",
+        "hex": "#BB561E",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 81,
+        "koName": "흙색",
+        "enName": "Soil",
+        "hex": "#917550",
+        "color": "orange",
+        "category": "자연"
+    },
+    {
+        "id": 82,
+        "koName": "비자색",
+        "enName": "Leather brown",
+        "hex": "#A66C4F",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 83,
+        "koName": "낙엽색",
+        "enName": "Autumn leaf",
+        "hex": "#B1673F",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 84,
+        "koName": "낙타색",
+        "enName": "Camel",
+        "hex": "#A36E47",
+        "color": "orange",
+        "category": "동물"
+    },
+    {
+        "id": 85,
+        "koName": "된장색",
+        "enName": "Soybean paste",
+        "hex": "#AC6A34",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 86,
+        "koName": "금갈색",
+        "enName": "Brown gold",
+        "hex": "#AC6B04",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 87,
+        "koName": "황갈색",
+        "enName": "Yellowish brown",
+        "hex": "#A47000",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 88,
+        "koName": "적황",
+        "enName": "Reddish yellow",
+        "hex": "#C25E16",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 89,
+        "koName": "감색",
+        "enName": "Persimmon",
+        "hex": "#C85A00",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 90,
+        "koName": "황소색",
+        "enName": "Bull",
+        "hex": "#B97023",
+        "color": "orange",
+        "category": "동물"
+    },
+    {
+        "id": 91,
+        "koName": "주황",
+        "enName": "Yellow red",
+        "hex": "#EA601F",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 92,
+        "koName": "토황색",
+        "enName": "Earthy sulfur",
+        "hex": "#C38743",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 93,
+        "koName": "양파색",
+        "enName": "Onionskin pink",
+        "hex": "#D97C46",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 94,
+        "koName": "당근색",
+        "enName": "Carrot",
+        "hex": "#E27732",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 95,
+        "koName": "호박색[광물]",
+        "enName": "Amber",
+        "hex": "#CB8429",
+        "color": "orange",
+        "category": "자연"
+    },
+    {
+        "id": 96,
+        "koName": "치자색",
+        "enName": "Gamboge yellow",
+        "hex": "#D08200",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 97,
+        "koName": "꽈리색",
+        "enName": "Yellow orange",
+        "hex": "#EA7212",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 98,
+        "koName": "호두색",
+        "enName": "Walnut",
+        "hex": "#C4985B",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 99,
+        "koName": "달고나색",
+        "enName": "Sunrise yellow",
+        "hex": "#D6943B",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 100,
+        "koName": "자황색",
+        "enName": "Violet yellow",
+        "hex": "#BEAA9C",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 101,
+        "koName": "보리색",
+        "enName": "Barley",
+        "hex": "#D6A470",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 102,
+        "koName": "건빵색",
+        "enName": "Biscuit",
+        "hex": "#D0A768",
+        "color": "orange",
+        "category": "음식"
+    },
+    {
+        "id": 103,
+        "koName": "금잔화색",
+        "enName": "Marigold yellow",
+        "hex": "#EF9C22",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 104,
+        "koName": "귤색",
+        "enName": "Tangerine",
+        "hex": "#F4A100",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 105,
+        "koName": "호박색[채소]",
+        "enName": "Pumpkin",
+        "hex": "#E9A000",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 106,
+        "koName": "회황색",
+        "enName": "Grayish yellow",
+        "hex": "#C9B59B",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 107,
+        "koName": "등황색",
+        "enName": "Orange yellow",
+        "hex": "#EEA91C",
+        "color": "orange",
+        "category": "색"
+    },
+    {
+        "id": 108,
+        "koName": "양털색",
+        "enName": "Wool",
+        "hex": "#D5C3B0",
+        "color": "orange",
+        "category": "동물"
+    },
+    {
+        "id": 109,
+        "koName": "계란색",
+        "enName": "Eggshell",
+        "hex": "#E6C29D",
+        "color": "orange",
+        "category": "동물"
+    },
+    {
+        "id": 110,
+        "koName": "살구색",
+        "enName": "Apricot",
+        "hex": "#FFB879",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 111,
+        "koName": "유황색",
+        "enName": "Sulfur",
+        "hex": "#F5C068",
+        "color": "orange",
+        "category": "자연"
+    },
+    {
+        "id": 112,
+        "koName": "민들레색",
+        "enName": "Dandelion",
+        "hex": "#FFBC2D",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 113,
+        "koName": "배색",
+        "enName": "Pear",
+        "hex": "#F7CA83",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 114,
+        "koName": "진주색",
+        "enName": "Pearl",
+        "hex": "#ECE3D5",
+        "color": "orange",
+        "category": "자연"
+    },
+    {
+        "id": 115,
+        "koName": "아마색",
+        "enName": "Flax",
+        "hex": "#EDDDC5",
+        "color": "orange",
+        "category": "식물"
+    },
+    {
+        "id": 116,
+        "koName": "양송이버섯색",
+        "enName": "Button mushroom",
+        "hex": "#F6F1ED",
+        "color": "orange",
+        "category": "균"
+    },
+    {
+        "id": 117,
+        "koName": "미색",
+        "enName": "Ivory",
+        "hex": "#F4F0EB",
+        "color": "orange",
+        "category": "음식"
+    }
 ]
